@@ -14,27 +14,57 @@ h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+
 }
 
 /* Header */
-header {
-  text-align: center;
-}
+header, h1  {
+  
+  margin: 10px;
+  padding: auto;
+  }
+  .container{
+  display: flex;
+  justify-content: center;
+  }
 
 /* Containers */
+
+.ab h3{
+  display: flex;
+  float:right;
+  text-align: left;
+  width:50%;
+  padding-bottom: 5px;
+  
+}
+.ab p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
 div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
 }
 
-article {
-  padding: 50px 0;
+article  {
+  width: 100%;
 }
 
-article div {
-  text-align: center;
-  width: 100%;
+.heading {
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+  
+}
+.heading ul  {
+  text-align: left;
+  margin: auto;
+  
+    
 }
 
 /* Paragraphs */
@@ -51,8 +81,10 @@ a:hover {
   color: #f77f00;
 }
 
-nav a {
-  padding-left: 20px;
+nav a{
+  padding: 10px;
+  line-height: 70px;
+  
 }
 
 /* Images */
@@ -65,12 +97,48 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  float: left;
+  margin-top:29px;
+}
+#portfolio{
+  display: flex;
+  font-size: 14px;
+  width: 500px;
+  
+  
 }
 
+#portfolio section {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  width: 40%;
+  
+  }
+
+  #contact{
+    text-align: left;
+    width:100%;
+  }
+  #contact p{
+  float: right;
+  margin: auto;
+  }
+  .center{
+    display: block;
+    
+
+  }
+
 /* Footer */
-footer {
+footer p{
+  display:flex;
+  position: center;
+  height: 50px;
+  width: 100%;
   text-align: center;
-}
+  
+  }
 
 /* Other page elements */
 hr {
