@@ -131,7 +131,9 @@ img {
   }
 
 /* Footer */
-footer p{
+footer 
+text-align: center;
+p{
   display: flex;
   position: center;
   height: 50px;
