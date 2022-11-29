@@ -131,16 +131,15 @@ img {
   }
 
 /* Footer */
-footer 
-text-align: center;
+footer {
 p{
   display: flex;
   position: center;
   height: 50px;
   width: 100%;
   text-align: center;
-  
   }
+    }
 
 /* Other page elements */
 hr {
