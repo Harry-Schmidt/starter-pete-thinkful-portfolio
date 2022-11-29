@@ -132,7 +132,7 @@ img {
 
 /* Footer */
 footer p{
-  display:flex;
+  display: flex;
   position: center;
   height: 50px;
   width: 100%;
