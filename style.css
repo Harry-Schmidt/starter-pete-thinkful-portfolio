@@ -132,14 +132,8 @@ img {
 
 /* Footer */
 footer {
-p{
-  display: flex;
-  position: center;
-  height: 50px;
-  width: 100%;
   text-align: center;
   }
-    }
 
 /* Other page elements */
 hr {
